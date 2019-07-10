@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1709401B22CA32B900778373 /* person.c in Sources */ = {isa = PBXBuildFile; fileRef = 1709401A22CA32B900778373 /* person.c */; };
+		1709401E22CA32F500778373 /* drivingLicense.c in Sources */ = {isa = PBXBuildFile; fileRef = 1709401D22CA32F500778373 /* drivingLicense.c */; };
+		1709402122CA335200778373 /* professionalDrivingPermit.c in Sources */ = {isa = PBXBuildFile; fileRef = 1709402022CA335200778373 /* professionalDrivingPermit.c */; };
+		1709402422CA33A700778373 /* vehicleClass.c in Sources */ = {isa = PBXBuildFile; fileRef = 1709402322CA33A600778373 /* vehicleClass.c */; };
+		173406D722C661B1000348EC /* crypto.c in Sources */ = {isa = PBXBuildFile; fileRef = 173406D622C661B1000348EC /* crypto.c */; };
+		173406DC22C7E5AB000348EC /* globalBarcodeLicenseDto.c in Sources */ = {isa = PBXBuildFile; fileRef = 173406DB22C7E5AB000348EC /* globalBarcodeLicenseDto.c */; };
+		17E7DEA722C5656100F98C39 /* barcodeLicenseConstants.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E7DEA622C5656100F98C39 /* barcodeLicenseConstants.c */; };
+		17E7DEAA22C57B1000F98C39 /* barcodeLicenseParser.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E7DEA922C57B1000F98C39 /* barcodeLicenseParser.c */; };
+		17E824D522C8B67D00CB886A /* headersSectionParser.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E824D422C8B67D00CB886A /* headersSectionParser.c */; };
+		17E824D822C9114500CB886A /* stringsSectionParser.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E824D722C9114500CB886A /* stringsSectionParser.c */; };
+		17E824DB22C93F9C00CB886A /* binaryDataSectionParser.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E824DA22C93F9C00CB886A /* binaryDataSectionParser.c */; };
+		17E824DE22C9CD7000CB886A /* drivingLicenseCard.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E824DD22C9CD7000CB886A /* drivingLicenseCard.c */; };
+		17E824E122C9CE0000CB886A /* compressedImage.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E824E022C9CE0000CB886A /* compressedImage.c */; };
+		17E824E422C9D01500CB886A /* identityDocument.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E824E322C9D01500CB886A /* identityDocument.c */; };
+		17E824E722C9D0F500CB886A /* card.c in Sources */ = {isa = PBXBuildFile; fileRef = 17E824E622C9D0F500CB886A /* card.c */; };
+		17EA315C22C243EC008F4CCB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 17EA315B22C243EC008F4CCB /* main.c */; };
+		17EA316522C24565008F4CCB /* keys.c in Sources */ = {isa = PBXBuildFile; fileRef = 17EA316422C24565008F4CCB /* keys.c */; };
+		17EA316A22C246D2008F4CCB /* decipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 17EA316922C246D2008F4CCB /* decipher.c */; };
+		17EA316D22C2541D008F4CCB /* barCodeLicenseDecipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 17EA316C22C2541D008F4CCB /* barCodeLicenseDecipher.c */; };
+		17EA317022C25D59008F4CCB /* barCodeLicenseDecipherHelper.c in Sources */ = {isa = PBXBuildFile; fileRef = 17EA316F22C25D59008F4CCB /* barCodeLicenseDecipherHelper.c */; };
+		17EA317322C28DE1008F4CCB /* helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 17EA317222C28DE1008F4CCB /* helper.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17EA315622C243EC008F4CCB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1709401922CA32B900778373 /* person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		1709401A22CA32B900778373 /* person.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = person.c; sourceTree = "<group>"; };
+		1709401C22CA32F500778373 /* drivingLicense.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drivingLicense.h; sourceTree = "<group>"; };
+		1709401D22CA32F500778373 /* drivingLicense.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = drivingLicense.c; sourceTree = "<group>"; };
+		1709401F22CA335200778373 /* professionalDrivingPermit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = professionalDrivingPermit.h; sourceTree = "<group>"; };
+		1709402022CA335200778373 /* professionalDrivingPermit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = professionalDrivingPermit.c; sourceTree = "<group>"; };
+		1709402222CA33A600778373 /* vehicleClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vehicleClass.h; sourceTree = "<group>"; };
+		1709402322CA33A600778373 /* vehicleClass.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = vehicleClass.c; sourceTree = "<group>"; };
+		173406D522C661B1000348EC /* crypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		173406D622C661B1000348EC /* crypto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = crypto.c; sourceTree = "<group>"; };
+		173406DA22C7E5AB000348EC /* globalBarcodeLicenseDto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = globalBarcodeLicenseDto.h; sourceTree = "<group>"; };
+		173406DB22C7E5AB000348EC /* globalBarcodeLicenseDto.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = globalBarcodeLicenseDto.c; sourceTree = "<group>"; };
+		17E7DEA522C5656100F98C39 /* barcodeLicenseConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = barcodeLicenseConstants.h; sourceTree = "<group>"; };
+		17E7DEA622C5656100F98C39 /* barcodeLicenseConstants.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = barcodeLicenseConstants.c; sourceTree = "<group>"; };
+		17E7DEA822C57B1000F98C39 /* barcodeLicenseParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = barcodeLicenseParser.h; sourceTree = "<group>"; };
+		17E7DEA922C57B1000F98C39 /* barcodeLicenseParser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = barcodeLicenseParser.c; sourceTree = "<group>"; };
+		17E824D322C8B67C00CB886A /* headersSectionParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = headersSectionParser.h; sourceTree = "<group>"; };
+		17E824D422C8B67D00CB886A /* headersSectionParser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = headersSectionParser.c; sourceTree = "<group>"; };
+		17E824D622C9114500CB886A /* stringsSectionParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = stringsSectionParser.h; sourceTree = "<group>"; };
+		17E824D722C9114500CB886A /* stringsSectionParser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = stringsSectionParser.c; sourceTree = "<group>"; };
+		17E824D922C93F9C00CB886A /* binaryDataSectionParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = binaryDataSectionParser.h; sourceTree = "<group>"; };
+		17E824DA22C93F9C00CB886A /* binaryDataSectionParser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = binaryDataSectionParser.c; sourceTree = "<group>"; };
+		17E824DC22C9CD7000CB886A /* drivingLicenseCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = drivingLicenseCard.h; sourceTree = "<group>"; };
+		17E824DD22C9CD7000CB886A /* drivingLicenseCard.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = drivingLicenseCard.c; sourceTree = "<group>"; };
+		17E824DF22C9CE0000CB886A /* compressedImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compressedImage.h; sourceTree = "<group>"; };
+		17E824E022C9CE0000CB886A /* compressedImage.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compressedImage.c; sourceTree = "<group>"; };
+		17E824E222C9D01500CB886A /* identityDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = identityDocument.h; sourceTree = "<group>"; };
+		17E824E322C9D01500CB886A /* identityDocument.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = identityDocument.c; sourceTree = "<group>"; };
+		17E824E522C9D0F500CB886A /* card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = card.h; sourceTree = "<group>"; };
+		17E824E622C9D0F500CB886A /* card.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = card.c; sourceTree = "<group>"; };
+		17EA315822C243EC008F4CCB /* JavaToC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JavaToC; sourceTree = BUILT_PRODUCTS_DIR; };
+		17EA315B22C243EC008F4CCB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		17EA316322C24565008F4CCB /* keys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keys.h; sourceTree = "<group>"; };
+		17EA316422C24565008F4CCB /* keys.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = keys.c; sourceTree = "<group>"; };
+		17EA316822C246D2008F4CCB /* decipher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = decipher.h; sourceTree = "<group>"; };
+		17EA316922C246D2008F4CCB /* decipher.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = decipher.c; sourceTree = "<group>"; };
+		17EA316B22C2541D008F4CCB /* barCodeLicenseDecipher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = barCodeLicenseDecipher.h; sourceTree = "<group>"; };
+		17EA316C22C2541D008F4CCB /* barCodeLicenseDecipher.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = barCodeLicenseDecipher.c; sourceTree = "<group>"; };
+		17EA316E22C25D59008F4CCB /* barCodeLicenseDecipherHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = barCodeLicenseDecipherHelper.h; sourceTree = "<group>"; };
+		17EA316F22C25D59008F4CCB /* barCodeLicenseDecipherHelper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = barCodeLicenseDecipherHelper.c; sourceTree = "<group>"; };
+		17EA317122C28DE1008F4CCB /* helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = helper.h; sourceTree = "<group>"; };
+		17EA317222C28DE1008F4CCB /* helper.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = helper.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17EA315522C243EC008F4CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		173406D822C665F0000348EC /* crypto */ = {
+			isa = PBXGroup;
+			children = (
+				173406D522C661B1000348EC /* crypto.h */,
+				173406D622C661B1000348EC /* crypto.c */,
+			);
+			path = crypto;
+			sourceTree = "<group>";
+		};
+		173406D922C7E3AC000348EC /* dto */ = {
+			isa = PBXGroup;
+			children = (
+				17E824E622C9D0F500CB886A /* card.c */,
+				17E824E522C9D0F500CB886A /* card.h */,
+				17E824E022C9CE0000CB886A /* compressedImage.c */,
+				17E824DF22C9CE0000CB886A /* compressedImage.h */,
+				1709401D22CA32F500778373 /* drivingLicense.c */,
+				1709401C22CA32F500778373 /* drivingLicense.h */,
+				17E824DD22C9CD7000CB886A /* drivingLicenseCard.c */,
+				17E824DC22C9CD7000CB886A /* drivingLicenseCard.h */,
+				173406DB22C7E5AB000348EC /* globalBarcodeLicenseDto.c */,
+				173406DA22C7E5AB000348EC /* globalBarcodeLicenseDto.h */,
+				17E824E322C9D01500CB886A /* identityDocument.c */,
+				17E824E222C9D01500CB886A /* identityDocument.h */,
+				1709401A22CA32B900778373 /* person.c */,
+				1709401922CA32B900778373 /* person.h */,
+				1709402022CA335200778373 /* professionalDrivingPermit.c */,
+				1709401F22CA335200778373 /* professionalDrivingPermit.h */,
+				1709402322CA33A600778373 /* vehicleClass.c */,
+				1709402222CA33A600778373 /* vehicleClass.h */,
+			);
+			path = dto;
+			sourceTree = "<group>";
+		};
+		17E7DEA422C5652000F98C39 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				17E7DEA622C5656100F98C39 /* barcodeLicenseConstants.c */,
+				17E7DEA522C5656100F98C39 /* barcodeLicenseConstants.h */,
+				17E7DEA922C57B1000F98C39 /* barcodeLicenseParser.c */,
+				17E7DEA822C57B1000F98C39 /* barcodeLicenseParser.h */,
+				17E824DA22C93F9C00CB886A /* binaryDataSectionParser.c */,
+				17E824D922C93F9C00CB886A /* binaryDataSectionParser.h */,
+				17E824D422C8B67D00CB886A /* headersSectionParser.c */,
+				17E824D322C8B67C00CB886A /* headersSectionParser.h */,
+				17E824D722C9114500CB886A /* stringsSectionParser.c */,
+				17E824D622C9114500CB886A /* stringsSectionParser.h */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		17EA314F22C243EC008F4CCB = {
+			isa = PBXGroup;
+			children = (
+				17EA315A22C243EC008F4CCB /* JavaToC */,
+				17EA315922C243EC008F4CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17EA315922C243EC008F4CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17EA315822C243EC008F4CCB /* JavaToC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17EA315A22C243EC008F4CCB /* JavaToC */ = {
+			isa = PBXGroup;
+			children = (
+				17EA315B22C243EC008F4CCB /* main.c */,
+				173406D822C665F0000348EC /* crypto */,
+				173406D922C7E3AC000348EC /* dto */,
+				17EA316722C246B4008F4CCB /* helper */,
+				17E7DEA422C5652000F98C39 /* parser */,
+				17EA316222C24535008F4CCB /* pvt */,
+			);
+			path = JavaToC;
+			sourceTree = "<group>";
+		};
+		17EA316222C24535008F4CCB /* pvt */ = {
+			isa = PBXGroup;
+			children = (
+				17EA316322C24565008F4CCB /* keys.h */,
+				17EA316422C24565008F4CCB /* keys.c */,
+				17EA316B22C2541D008F4CCB /* barCodeLicenseDecipher.h */,
+				17EA316C22C2541D008F4CCB /* barCodeLicenseDecipher.c */,
+				17EA316E22C25D59008F4CCB /* barCodeLicenseDecipherHelper.h */,
+				17EA316F22C25D59008F4CCB /* barCodeLicenseDecipherHelper.c */,
+			);
+			path = pvt;
+			sourceTree = "<group>";
+		};
+		17EA316722C246B4008F4CCB /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				17EA316822C246D2008F4CCB /* decipher.h */,
+				17EA316922C246D2008F4CCB /* decipher.c */,
+				17EA317122C28DE1008F4CCB /* helper.h */,
+				17EA317222C28DE1008F4CCB /* helper.c */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17EA315722C243EC008F4CCB /* JavaToC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17EA315F22C243EC008F4CCB /* Build configuration list for PBXNativeTarget "JavaToC" */;
+			buildPhases = (
+				17EA315422C243EC008F4CCB /* Sources */,
+				17EA315522C243EC008F4CCB /* Frameworks */,
+				17EA315622C243EC008F4CCB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JavaToC;
+			productName = JavaToC;
+			productReference = 17EA315822C243EC008F4CCB /* JavaToC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17EA315022C243EC008F4CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Fabio Guilherme";
+				TargetAttributes = {
+					17EA315722C243EC008F4CCB = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 17EA315322C243EC008F4CCB /* Build configuration list for PBXProject "JavaToC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17EA314F22C243EC008F4CCB;
+			productRefGroup = 17EA315922C243EC008F4CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17EA315722C243EC008F4CCB /* JavaToC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17EA315422C243EC008F4CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1709401E22CA32F500778373 /* drivingLicense.c in Sources */,
+				1709402122CA335200778373 /* professionalDrivingPermit.c in Sources */,
+				17EA316D22C2541D008F4CCB /* barCodeLicenseDecipher.c in Sources */,
+				17E7DEA722C5656100F98C39 /* barcodeLicenseConstants.c in Sources */,
+				1709402422CA33A700778373 /* vehicleClass.c in Sources */,
+				17EA317322C28DE1008F4CCB /* helper.c in Sources */,
+				173406DC22C7E5AB000348EC /* globalBarcodeLicenseDto.c in Sources */,
+				17EA317022C25D59008F4CCB /* barCodeLicenseDecipherHelper.c in Sources */,
+				17E824E722C9D0F500CB886A /* card.c in Sources */,
+				173406D722C661B1000348EC /* crypto.c in Sources */,
+				17E824DB22C93F9C00CB886A /* binaryDataSectionParser.c in Sources */,
+				17EA315C22C243EC008F4CCB /* main.c in Sources */,
+				17E824E122C9CE0000CB886A /* compressedImage.c in Sources */,
+				17E824D822C9114500CB886A /* stringsSectionParser.c in Sources */,
+				17E824DE22C9CD7000CB886A /* drivingLicenseCard.c in Sources */,
+				1709401B22CA32B900778373 /* person.c in Sources */,
+				17EA316A22C246D2008F4CCB /* decipher.c in Sources */,
+				17E824E422C9D01500CB886A /* identityDocument.c in Sources */,
+				17EA316522C24565008F4CCB /* keys.c in Sources */,
+				17E824D522C8B67D00CB886A /* headersSectionParser.c in Sources */,
+				17E7DEAA22C57B1000F98C39 /* barcodeLicenseParser.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17EA315D22C243EC008F4CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		17EA315E22C243EC008F4CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		17EA316022C243EC008F4CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = ./openssl/include;
+				LIBRARY_SEARCH_PATHS = ./openssl/lib;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		17EA316122C243EC008F4CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = ./openssl/include;
+				LIBRARY_SEARCH_PATHS = ./openssl/lib;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17EA315322C243EC008F4CCB /* Build configuration list for PBXProject "JavaToC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EA315D22C243EC008F4CCB /* Debug */,
+				17EA315E22C243EC008F4CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17EA315F22C243EC008F4CCB /* Build configuration list for PBXNativeTarget "JavaToC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17EA316022C243EC008F4CCB /* Debug */,
+				17EA316122C243EC008F4CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17EA315022C243EC008F4CCB /* Project object */;
+}
